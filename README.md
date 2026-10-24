@@ -1,6 +1,6 @@
 # DTC creative portfolio
 
-An original responsive one-page portfolio built with Vite, semantic HTML, CSS, and JavaScript. No UI framework, external fonts, stock photos, or animation dependencies.
+An original responsive one-page portfolio built with Vite, semantic HTML, CSS, and JavaScript. The default design uses charcoal surfaces, oversized sans-serif headlines, lime accents, and a colorful video-format grid. No UI framework, external fonts, stock photos, or animation dependencies.
 
 ## Run
 
@@ -19,7 +19,8 @@ npm run dev
 - Put videos in `public/videos/` and set `src` to `/videos/your-file.mp4`, or use a direct HTTPS media URL. The video player supports direct browser-playable files, not YouTube or Vimeo page URLs. Video bytes are only requested when a visitor opens a sample. Nothing autoplays.
 - Each video has a `captions` field for a WebVTT file and a `transcript` field. Add accurate captions and transcripts for spoken content.
 - `index.html`: section copy, page title, SEO description, Open Graph tags and image URL. The name in text metadata updates from the profile at runtime, but replace the static placeholders too for social crawlers that do not execute JavaScript.
-- `src/style.css`: colors, typography, layouts, and concept illustrations.
+- `src/style.css`: base layout and original concept illustrations.
+- `src/dark.css`: the default dark palette, oversized typography, colorful format-card layout, responsive adjustments, and hover treatments. Edit this file to adjust the current visual direction.
 
 All illustrated products and the storefront are original CSS placeholders, not actual portfolio work, brands, or a screenshot of Moriel’s Oasis. Replace them with your supplied artwork/posters when available. No external logo licenses are needed. Higgsfield is the only confirmed tool; remove brackets and confirm others before publishing. The eight formats are offered directions, not a claim of completed client work.
 
